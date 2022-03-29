@@ -1,0 +1,258 @@
+
+
+.s_aboutUs{
+    padding: 35px;
+    background-color:#0D1114 ;
+    text-align: center;
+    font-family: 'Menlo';
+    .s_cards{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        padding: 0px;
+        padding-bottom: 60px;
+        @media screen and(max-width:767px) {
+            display: none;
+        }
+     }
+    .s_orangeHeading{
+        color:#FA9F09;
+        @include fluid-type($min_width, $max_width, 27px, 31px);
+       
+        
+    }
+    .s_whiteHeading{
+        color: white;
+        @include fluid-type($min_width, $max_width, 35px, 43px);
+        padding: 2% 15%;
+        @media screen and (max-width:767px) {
+            padding: 0%;
+        }
+        }
+    .s_orangeHeading2{
+        color:#F9BB3D;
+        @include fluid-type($min_width, $max_width, 27px, 31px);
+       
+    }
+    .para{
+        color: white;
+        text-align: left;
+        font-family: 'Karla', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        padding: 20px 0px;
+        @media screen and (max-width:767px) {
+            padding: 5px;
+        }
+    }
+    .s_aboutUsContent{
+        padding: 0% 15%;
+        @media screen and (max-width:767px) {
+            padding: 0%;
+        }
+     
+    }
+    .cards{
+        background-color: #1A2934;
+        max-width: 320px;
+        min-width: 250px;
+        @media screen and (max-width:767px) {
+            min-width: 90%;
+        }
+        min-height: 415px;
+        border-radius: 15px;
+        border: 1px solid #EF981D;
+        margin: 7px;
+        .s_name{
+            font-family: 'menlo';
+            font-size: 27;
+        }
+        .position{
+            font-family: 'Karla', sans-serif;
+            font-style: italic;
+            font-size: 22px;
+
+
+        }
+        .image{
+            width: 192px;
+            padding: 30px 0px;
+            margin: auto;
+        }
+    }
+    .iconify{
+     color: #FA9F09;   
+     font-size: 23px;
+    }
+}
+.s_cards{
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   margin: auto;
+   padding: 0px;
+   padding-bottom: 60px;
+   @media screen and(max-width:767px) {
+       display: none;
+   }
+}
+// ***********************************************************************
+
+
+.s_buyHunter{
+    background-color: #0D1114;
+    padding: 3%;
+   
+
+    .buyContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        @media only screen and (max-width: 991px) {
+            flex-direction: column;
+            text-align: center;
+           }
+        
+        .buyText{
+            font-family: $Karla;
+            font-style: italic;
+            font-weight: normal;
+            @include fluid-type($min_width, $max_width, 30px, 37px);
+            color: rgba(255,255,255,1);
+        }
+        .buyButton{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            text-align: center;
+            max-width: 287px;
+            max-height: 59px;
+            font-family: $Menlo;
+            font-style: normal;
+            font-weight: bold;
+            @include fluid-type($min_width, $max_width, 10px, 22px);
+            color: rgba(255,255,255,1);
+            background-color: #F9BB3D;
+            padding: 10px;
+            border-radius: 15px;
+           
+        }
+    }
+}
+.s_advisoryTeam{
+    filter: drop-shadow(0px 12px 35px rgba(0, 0, 0, 0.494));
+    background-color: #27343E;
+    .innerSection{
+        padding: 20px;
+       .items{
+           border: 1px solid #F9BB3D;
+           border-radius:15px ;
+           background-color: rgba(255, 255, 255, 0.2);
+           backdrop-filter: blur(8px);
+           
+        .armsContent{
+            padding: 0px;
+                .content{
+                  padding: 40px;
+                  display: grid;
+                  align-items: center;
+                  
+                  
+                  .heading{
+                      font-family: $Menlo;
+                      font-style: normal;
+                      font-weight: bold;
+                      @include fluid-type($min_width, $max_width, 24px, 30px);
+                      color: rgba(249,187,61,1);
+                      letter-spacing: -0.3px;
+                      text-transform: uppercase;
+                      padding-top: 10%;
+                  }
+                  .subHeading{
+                      font-family: $Menlo;
+                      font-style: normal;
+                         font-weight: bold;
+                         @include fluid-type($min_width, $max_width, 30px, 36px);
+                      color: rgba(255,255,255,1);
+                      padding-top: 4%;
+                  }
+                  .para{
+                      font-family: $Karla;
+                      font-style: normal;
+                      font-weight: normal;
+                      @include fluid-type($min_width, $max_width, 14px, 22px);
+                      color: rgba(255,255,255,1);
+                      padding-top: 6%;
+                  }
+              }
+  
+             
+          }
+          .armsImage{
+             padding: 0px;
+             
+             .armsImg{
+               width: -webkit-fill-available;
+               height: 100%;
+               border-radius: 0px 15px 15px 0px ;
+               @media only screen and (max-width: 991px) {
+                border-radius: 0px 0px 15px 15px ;
+              }
+             }
+             .daImg{
+                width: 70%;
+                border-radius: 15px 0px  0px 15px  ;
+                @media only screen and (max-width: 991px) {
+                 border-radius:  15px 15px 0px 0px ;
+                }
+              
+             }
+             .size-100{
+                 width: 100% !important;
+                 height: 100% !important;
+             }
+          }
+       }
+    }
+}
+
+.s_collabSection{
+    background: #27343E;
+    padding: 3% 0%;
+      
+    .headingCollab{
+        font-family: Menlo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: rgba(201,201,201,1);
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 5%;
+    }
+   .collabPartners{
+     
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       padding-top: 30px;
+    .brand_logos{
+        width: 350px;
+    }
+    .brand_logos_1{
+        width: 320px;
+    }
+   }
+}
+.extra_prop{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+    border-radius: 15px 0px  0px 15px  ;
+    @media only screen and (max-width: 991px) {
+     border-radius:  15px 15px 0px 0px ;
+    }
+}

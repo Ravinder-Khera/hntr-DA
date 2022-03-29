@@ -1,0 +1,39 @@
+.resources{
+    background-color: #0D1114 !important;
+    .content1{
+        padding: 40px;
+        display: grid;
+        align-items: center;
+        height: 100%;
+        .subHeading2{
+            text-align: left;
+            font-family: Menlo;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            color: rgba(250,159,9,1);
+            letter-spacing: -0.3px;
+        }
+        .para2{
+            text-align: left;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            color: rgba(39,52,62,1);
+        }
+    }
+    .all_articles{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .all_article_tag{
+            font-family: $Menlo;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            color: rgba(249,187,61,1);
+            text-decoration: underline;
+        }
+    }
+}

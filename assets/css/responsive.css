@@ -1,0 +1,151 @@
+@media (min-width: 1600px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1520px !important;
+    }
+}
+@media (min-width: 1700px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1620px !important;
+    }
+}
+@media only screen and (max-width: 1699px) {
+    .carousel .owl_custom-nav .owl_custom-prev {
+        min-width: 50px;
+    }
+    .carousel .owl_custom-nav .owl_custom-next {
+        min-width: 50px;
+    }
+    .carousel .owl_custom-nav .owl_custom-prev .btn-triangle-left {
+        left: 10px;
+    }
+    .carousel .owl_custom-nav .owl_custom-next .btn-triangle-right{
+        right: 10px;
+    }
+    .carousel .custom_slider {
+        max-width: 95%;
+    }
+    .carousel #product_slider .carousel-card .carousel-card_container .carousel-footer_section .btn-hntr.btn-yellow .im-fluid {
+        max-width: 20px;
+    }
+    .carousel #product_slider .carousel-card .carousel-card_container .carousel-footer_section .btn-hntr.btn-yellow span {
+        font-size: 26px;
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+    .carousel #product_slider .carousel-card .carousel-card_container .carousel-footer_section .product_price {
+        font-size: 20px;
+    }
+    .carousel #product_slider .carousel-card .carousel-card_container .carousel-footer_section .btn-buynow.btn-red {
+        font-size: 20px;
+    }
+    .carousel #product_slider .carousel-card .carousel-card_container .carousel-img_section .product_title {
+        bottom: 10px;
+        font-size: 25px;
+    }
+    .carousel #product_slider2 .carousel-card {
+        padding: 35px 10px;
+    }
+}
+
+@media only screen and (max-width: 1390px) {
+    .header-bar .navbar .nav-link {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .header-bar .navbar .hntr-logo .brand-logo-img {
+        max-width: 50px;
+    }
+    .header-bar .navbar .hntr-logo {
+        font-size: 35px;
+    }
+    .header-bar .navbar .nav-link {
+        padding: 20px 8px !important;
+        font-size: 16px;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-fullwidth .menu_header {
+        padding: 0px;
+    }
+    .header-bar .navbar .hntr-logo {
+        font-size: 30px;
+    }
+    .header-bar .site-logo {
+        min-width: 250px;
+        margin: 5px 0 16px 0;
+    }
+    .header-bar .navbar .hntr-logo .brand-logo-img {
+        max-width: 40px;
+        width: 100%;
+    }
+    ul.navbar-nav.ms-auto {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .header-bar .navbar .active {
+        color: #FA9F09 !important;
+        border-bottom: none;
+    }
+    .header-bar .navbar .nav-link {
+        padding: 15px 5px !important;
+        width: 100%;
+    }
+    .d-flex.ms-lg-4 {
+        margin-bottom: 30px;
+    }
+    div#navbarHunterWebsite {
+        background: #000;
+        margin-top: 10px;
+        width: 100%;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .login_btn_section {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .buy_hntr_section {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .d-flex.on_mobilecls {
+        margin-bottom: 30px;
+        display: block !important;
+    }
+    .carousel #product_slider .carousel-card {
+        padding: 35px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel .owl_custom-nav .owl_custom-prev {
+        min-width: 28px;
+    }
+    .carousel .owl_custom-nav .owl_custom-next {
+        min-width: 28px;
+    }
+    .carousel .owl_custom-nav .owl_custom-prev .btn-triangle-left {
+        left: 7px;
+    }
+    .carousel .owl_custom-nav .owl_custom-next .btn-triangle-right{
+        right: 7px;
+    }
+    .carousel .owl_custom-nav .owl_custom-prev .btn-triangle-left {
+        border-top: 15px solid transparent;
+        border-right: 10px solid #eeeeee;
+        border-bottom: 15px solid transparent;
+    }
+    .carousel .owl_custom-nav .owl_custom-next .btn-triangle-right {
+        border-top: 15px solid transparent;
+        border-left: 10px solid #eeeeee;
+        border-bottom: 15px solid transparent;
+    }
+    
+}

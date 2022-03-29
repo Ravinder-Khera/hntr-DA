@@ -1,0 +1,86 @@
+.section_contact-us {
+    background-image: url(../assets/images/footer_banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .contact_inner_section {
+        border-radius: 20px;
+        padding: 60px 0;
+        .contact_infor_section {
+            backdrop-filter: blur(8px);
+            background-color: rgba(38, 36, 36, 0.5);
+            border-radius: 20px 0px 0px 20px;
+            .contact_heading {
+                color: #FA9F09;
+                font-size: 32px;
+                line-height: 36px;
+                margin-bottom: 15px;
+                font-weight: 600;
+            }
+            .sub_contact_heading {
+                color: #ffffff;
+                font-size: 36px;
+                line-height: 40px;
+                margin-bottom: 15px;
+                font-weight: 600;
+            }
+            .contact_content {
+                color: #fff;
+                font-size: 20px;
+                line-height: 30px;
+                margin: 15px 0 15px 0;
+            }
+        }
+.contact_form_section {
+    background-color: #0D1114;
+    border-radius: 0px 20px 20px 0px; 
+}
+.contact_form_section {
+    background-color: #0D1114;
+    border-radius: 0px 20px 20px 0px; 
+}
+.contact_box_section{
+    border: 1px solid #FA9F09;
+    padding: 40px;
+}
+.form-label {
+    color: #FA9F09;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.form-control {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    border: 1px solid #FA9F09;
+}
+.btn-contact_submit {
+    background-color: #0D1114;
+    border: 2px solid #FA9F09;
+    color: #FA9F09;
+    border-radius: 10px;
+}
+.btn-contact_submit:hover {
+    background-color: #FA9F09;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+}
+}
+.all_articles{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    .all_article_tag{
+        font-family: $Menlo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: rgba(249,187,61,1);
+        
+
+    }
+}
+}
